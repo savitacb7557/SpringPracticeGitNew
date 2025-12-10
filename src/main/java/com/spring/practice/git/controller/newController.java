@@ -11,8 +11,8 @@ public class newController {
 	 * "welcome to new spring basic application"; }
 	 */
 	
-	@GetMapping("/allow12")
+	@GetMapping("/allow123")
 	public String example() {
-		return "welcome to new spring basic application12";
+		return "welcome to new spring basic application123";
 	}
 }
