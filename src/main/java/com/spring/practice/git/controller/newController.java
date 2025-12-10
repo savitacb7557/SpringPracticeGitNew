@@ -6,8 +6,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class newController {
 
-	@GetMapping("/allow")
+	/*
+	 * @GetMapping("/allow") public String example() { return
+	 * "welcome to new spring basic application"; }
+	 */
+	
+	@GetMapping("/allow12")
 	public String example() {
-		return "welcome to new spring basic application";
+		return "welcome to new spring basic application12";
 	}
 }
